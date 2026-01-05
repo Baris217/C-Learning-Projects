@@ -6,7 +6,7 @@ int main()
 
     int a;
     int i;
-    int asal = 1;
+    int prime = 1;
 
     printf("Write your number:");
     scanf("%d", &a);
@@ -45,18 +45,18 @@ int main()
             if (a % i == 0)
             {
 
-                asal = 0;
+                prime = 0;
                 break;
             }
         }
 
-        if (asal == 1)
+        if (prime == 1)
         {
 
             printf("This number is a prime number");
         }
 
-        else if (asal == 0)
+        else if (prime == 0)
         {
 
             printf("This number is not a prime number");
@@ -64,4 +64,5 @@ int main()
     }
 
     return 0;
+
 }
