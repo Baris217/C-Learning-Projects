@@ -2,9 +2,9 @@
 
 ## 📝 Description
 
-A C program which calculate the average of the numbers you wrote.
+A C program which calculates the average of the numbers you enter.
 
-##  🚀 How To Work
+##  🚀 How It Work
 
 1. Input your numbers as much as you want.
 2. Input -1 when you want to stop
